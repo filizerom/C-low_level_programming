@@ -3,19 +3,19 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - write first lower and upper letter
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 
 int main(void)
 {
-	char low;
+	char alph;
 
-	for (low = 'a'; low <= 'z'; low++)
+	for (alph = 'a'; alph <= 'z'; alph++)
 		putchar(low);
-	for (low = 'A'; low <= 'Z'; low++)
-		putchar(low);
+	for (alph = 'A'; alph <= 'Z'; alph++)
+		putchar(alph);
 	putchar('\n');
 
 	return (0);
